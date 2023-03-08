@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\KuliahController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -16,5 +19,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+
+Route::get('/profileDzaka', [ProfileController::class, 'profil1']);
+Route::get('/profileIzamul', [ProfileController::class, 'profil2']);
+Route::get('/curhat-kuliah', [KuliahController::class, 'kuliah']);
+
+
 
 
