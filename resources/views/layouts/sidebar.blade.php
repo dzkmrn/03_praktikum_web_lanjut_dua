@@ -77,14 +77,34 @@
                 </li>
               </ul>
             </li>
-            <li class="nav-item">
-              <a href="http://127.0.0.1:8000/curhat-kuliah" class="nav-link active">
-                <i class="nav-icon far fa-image"></i>
+            
+            <li class="nav-item menu">
+              <a href="#" class="nav-link active">
+                <i class="nav-icon fas fa-pen"></i>
                 <p>
-                  Curhatan Selama Kuliah
+                  Curhatan
+                  <i class="right fas fa-angle-left"></i>
                 </p>
               </a>
+              <ul class="nav nav-treeview">
+                <li class="nav-item">
+                  <a href="http://127.0.0.1:8000/curhatan1" class="nav-link active">
+                    <!-- ganti target parameter -->
+                    <i class="far fa-user nav-user"></i>
+                    <p>By Muran Dzaka</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="http://127.0.0.1:8000/curhatan2" class="nav-link active">
+                    <!-- ganti target parameter -->
+                    <i class="far fa-user nav-user"></i>
+                    <p>By Fikri Fahmi</p>
+                  </a>
+                </li>
+              </ul>
             </li>
+
+            
           </ul>
         </nav>
         <!-- /.sidebar-menu -->

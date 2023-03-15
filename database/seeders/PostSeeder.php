@@ -16,9 +16,9 @@ class PostSeeder extends Seeder
     public function run()
     {
         DB::table('table_post')->insert([
-            'nama'=>'Mohammad Izamul Fikri Fahmi',
-            'keterangan'=>'2141720171 - TI 2F - 15',
-            'curhatan'=>'Kuliah di Polinema sangatlah asik dan menyenangkan :D'
+            'nama'=>'Muhammad Dzaka Murran Rusid',
+            'keterangan'=>'2141720075 - TI 2F - 16',
+            'curhatan'=>'Turu login skripsian'
         ]);
     }
 }
