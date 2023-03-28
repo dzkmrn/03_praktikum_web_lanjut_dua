@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\KuliahController;
+use App\Http\Controllers\CurhatanController;
 
 
 /*
@@ -23,6 +24,8 @@ Route::get('/', function () {
 Route::get('/profileDzaka', [ProfileController::class, 'profil1']);
 Route::get('/profileIzamul', [ProfileController::class, 'profil2']);
 Route::get('/curhat-kuliah', [KuliahController::class, 'kuliah']);
+Route::get('/curhatan1', [CurhatanController::class, 'curhatan1']);
+Route::get('/curhatan2', [CurhatanController::class, 'curhatan2']);
 
 
 
