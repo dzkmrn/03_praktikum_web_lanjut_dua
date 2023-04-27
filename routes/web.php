@@ -32,7 +32,7 @@ Route::group(['middleware' => 'auth'], function(){
 
 Auth::routes();
 
-//keren abis berubahihjjoijl
+//keren abis bermjhjlkjkoj98hi
 
 
 
