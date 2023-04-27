@@ -32,6 +32,8 @@ Route::group(['middleware' => 'auth'], function(){
 
 Auth::routes();
 
+//keren abis berubah
+
 
 
 
