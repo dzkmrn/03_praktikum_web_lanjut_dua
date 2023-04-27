@@ -32,8 +32,8 @@ Route::group(['middleware' => 'auth'], function(){
 
 Auth::routes();
 
-//keren abis bermjhjlkjkoj98hi
 
+//cide hkjjkl
 
 
 
