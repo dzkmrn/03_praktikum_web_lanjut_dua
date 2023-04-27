@@ -33,7 +33,7 @@ Route::group(['middleware' => 'auth'], function(){
 Auth::routes();
 
 
-//cide hkjjkl
+//ngide super asli nocap
 
 
 
